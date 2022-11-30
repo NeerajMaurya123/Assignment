@@ -1,0 +1,198 @@
+body{
+    background-color: #f7f7f7;
+    margin-top:20px;}
+/* pricing tables */
+.pricing-table {
+  background: #e9f0f4;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.pricing-table ul, .pricing-table ol {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.pricing-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 30px;
+  margin-bottom: 0;
+}
+
+.pricing-table-price {
+  background: #cdd4d8;
+  font-weight: 700;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.pricing-table-price.w-rounded-price {
+  display: table;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 30px auto;
+  padding: 0;
+}
+
+.rounded-price {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.rounded-price .pricing-price {
+  font-size: 1.75rem;
+}
+
+.rounded-price .pricing-currency {
+  vertical-align: 10px;
+}
+
+.pricing-table-price p {
+  color: #000;
+  margin-bottom: 0;
+}
+
+.pricing-currency {
+  font-size: 1rem;
+  font-weight: 700;
+  vertical-align: 25px;
+}
+
+.pricing-price {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.pricing-period {
+  font-weight: 700;
+}
+
+.pricing-table-content li {
+  margin-bottom: 15px;
+}
+
+.pricing-table-button {
+  padding: 15px 0 35px;
+}
+
+.featured.pricing-table {
+  background: #9c64b8;
+}
+
+.featured.pricing-table .pricing-title {
+  color: #fff;
+}
+
+.featured.pricing-table .pricing-table-content ul li {
+  color: #eee;
+}
+
+.featured.pricing-table .pricing-table-price {
+  background: #8853a1;
+}
+
+.featured.pricing-table .pricing-table-price p {
+  color: #fff;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+.bg-info-hover {
+    background-color: #1397af !important;
+}
+.bg-info {
+    background-color: #21b9d5 !important;
+}
+
+.bg-primary-hover {
+    background-color: #8853a1 !important;
+}
+.bg-primary {
+    background-color: #9c64b8 !important;
+}
+.text-white {
+    color: #fff !important;
+}
+.contactwel {
+    width: 100%;
+    padding: 0;
+    margin: 50px 0 25px 0px;
+}
+.form-group label {
+    font-size: 1.6rem;
+    margin-bottom: .8rem;
+    font-weight: 600;
+	float:left;
+}
+.contactwel h1 {
+    width: 100%;
+    font-family: calibri;
+    color: #2273ba;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0;
+    margin-bottom: 36px;
+    font-size: 36px;
+    text-align: center;
+    background-image: url(../images/hborder.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.conbody {
+    width: 100%;
+    padding: 0;
+    margin: 15px 0px;
+}
+.conbody h3 {
+    width: 100%;
+    text-align: left;
+    float: left;
+    font-family: calibri;
+    font-weight: bold;
+    color: #2273ba;
+    font-size: 24px;
+    line-height: 36px;
+}
+.conbody p {
+    float: left;
+    font-family: calibri;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: left;
+    color: #343333;
+}
+.btn.btn-primary:hover{
+    box-shadow:0px 0px 3px 3px skyblue;
+}
+input[type="text"], input[type="email"], input[type="date"], input[type="time"], input[type="search"], input[type="password"], input[type="number"], input[type="tel"], textarea.form-control {
+    border: 1px solid lightslategray;
+    border-radius: .3rem;
+    color: #363636;
+    transition: .3s;
+    transform-style: preserve-3d;
+    -webkit-appearance: none;
+    background-color: #fff;
+    font-size: 1.4rem;
+    outline: none !important;
+    width: 100%;
+    height: inherit;
+    padding: 10px;
+	border-radius:0px;
+	height:55px;
+}
+p{
+opacity:1 !important;
+}
+#su1{
+    background-color: #030303;
+    border: none;
+    border-radius: 5px;
+	    float: left;
+    width: 142px;
+}
